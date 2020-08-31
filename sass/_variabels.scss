@@ -1,0 +1,41 @@
+@mixin centering() {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin fontSize {
+    font-size: medium;
+}
+
+@mixin fontSizeArea{
+    font-size: large;
+}
+
+@mixin textAreaSmall{
+    background: transparent;
+        border: none;
+        text-decoration: none;
+        width: 100%;
+        height: 2rem;
+        color: $text;
+}
+
+@mixin textAreaBig {
+    background: transparent;
+        border: none;
+        text-decoration: none;
+        width: 100%;
+        height: 20rem;
+        color: $text;
+}
+
+@mixin textAreaLista {
+    background: transparent;
+        border: none;
+        text-decoration: none;
+        list-style-type: none;
+        width: 100%;
+        height: 3rem;
+        color: $text;
+        padding-top: 4%;
+}

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV-mall</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./sass/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
+    <button class="modes-btn" onClick="myFunction()">Dark/light-mode</button>
     <div class="cv-base">
         <div class="cv-title">
             <h1>Hej och välkommen till mitt CV</h1>
@@ -16,78 +17,74 @@
         <div class="cv-header">
             <h3 class="cv-header-titel">Kontaktuppgifter</h3>
                 <h3 class="cv-header-namn">Namn:</h3>
-                    <p class="cv-header-namn-text">blabla blablabla</p>
+                    <textarea style="resize:none;" class="cv-header-namn-text" placeholder="blabla blablabla"></textarea>
                 <h3 class="cv-header-adress">Adress:</h3>
-                    <p class="cv-header-adress-text">blablabla 24, 61930 blabla</p>
+                    <textarea style="resize: none;" class="cv-header-adress-text" placeholder="blablabla 24, 61930 blabla"></textarea>
                 <h3 class="cv-header-nummer">Telefonnummer och Mail:</h3>
-                    <p class="cv-header-nummer-nummer">123-45678910</p>
-                    <p class="cv-header-nummer-mail">blablabla@blabla.com</p>
+                    <textarea style="resize: none;" class="cv-header-nummer-nummer" placeholder="070-1234567"></textarea>
+                    <textarea style="resize: none;" class="cv-header-nummer-mail" placeholder="blablabla@blabla.com"></textarea>
         </div>
         <br>
         <div class="cv-inledning">
             <h2 class="cv-inledning-titel">Inledning</h2>
-            <p class="cv-inledning-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque saepe sed nesciunt quis ipsum? Minima, cumque unde, expedita explicabo aspernatur optio nihil quia repellat veritatis asperiores voluptate molestias! Ipsum, repellat.
-                Neque quod accusamus ratione, cupiditate rerum error, provident beatae laboriosam iure doloremque architecto reiciendis natus quos? Doloremque, libero explicabo cumque provident in ipsam vero. Voluptate doloremque sed vitae iusto autem!
-                Nesciunt obcaecati cupiditate accusantium deserunt? Ratione sequi commodi laboriosam assumenda laborum animi ad. Quo aspernatur fugit nisi totam! Blanditiis laborum deserunt dolorum sequi deleniti provident aliquam sunt ut incidunt! A.
-                Doloribus ullam culpa praesentium sit explicabo hic quos nemo autem, laudantium quasi amet tenetur repellendus, est minima porro quis ut eveniet animi voluptatum rerum quia laborum, corporis magnam? Voluptate, perferendis!
-            </p>
+            <textarea class="cv-inledning-text" placeholder="Skriv din inledning här!"></textarea>
         </div>
         <br>
         <div class="cv-utbildning">
             <h2 class="cv-utbildning-titel">Utbildning</h2>
-            <ul class="cv-utbildning-lista">
-                <li>blabla - skola, stad</li>
-                <li>blabla - skola, stad</li>
-                <li>blabla - skola, stad</li>
-                <li>andra Utbildningar</li>
-                <li>andra Utbildningar</li>
+            <ul style="list-style-type: none;" class="cv-utbildning-lista">
+                <li><textarea style="resize: none;" id="cv-utbildning-lista-1" placeholder="blabla - skola, stad"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-utbildning-lista-2" placeholder="blabla - skola, stad"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-utbildning-lista-3" placeholder="blabla - skola, stad"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-utbildning-lista-4" placeholder="blabla - skola, stad"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-utbildning-lista-5" placeholder="blabla - skola, stad"></textarea></li>
             </ul>
         </div>
         <br>
         <div class="cv-erfarenheter">
             <h2 class="cv-erfarenheter-titel">Tidigare erfarenheter</h2>
-            <ul class="cv-erfarenheter-lista">
-                <li>blabla - praktik</li>
-                <li>blabla - tidigare jobb</li>
-                <li>blabla - tidigare jobb</li>
-                <li>blabla - tidigare jobb</li>
-                <li>blabla - tidigare jobb</li>
+            <ul style="list-style-type: none;" class="cv-erfarenheter-lista">
+                <li><textarea style="resize: none;" id="cv-erfarenheter-lista-1" placeholder="blabla - erfarenheter"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-erfarenheter-lista-2" placeholder="blabla - erfarenheter"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-erfarenheter-lista-3" placeholder="blabla - erfarenheter"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-erfarenheter-lista-4" placeholder="blabla - erfarenheter"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-erfarenheter-lista-5" placeholder="blabla - erfarenheter"></textarea></li>
             </ul>
         </div>
         <br>
         <div class="cv-intressen">
             <h2 class="cv-intressen-titel">Intressen</h2>
-            <ul class="cv-intressen-lista">
-                <li>blabla</li>
-                <li>blabla</li>
-                <li>blabla</li>
-                <li>blabla</li>
-                <li>blabla</li>
+            <ul style="list-style-type: none;" class="cv-intressen-lista">
+                <li><textarea style="resize: none;" id="cv-intressen-lista-1" placeholder="blabla - intressen/hobbys"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-intressen-lista-2" placeholder="blabla - intressen/hobbys"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-intressen-lista-3" placeholder="blabla - intressen/hobbys"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-intressen-lista-4" placeholder="blabla - intressen/hobbys"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-intressen-lista-5" placeholder="blabla - intressen/hobbys"></textarea></li>
             </ul>
         </div>
         <br>
         <div class="cv-referenser">
-            <ul class="cv-referenser-lista">
-                <li>blabla - person - telefonnummer</li>
-                <li>blabla - person - telefonnummer</li>
-                <li>blabla - person - telefonnummer</li>
-                <li>blabla - person - telefonnummer</li>
-                <li>blabla - person - telefonnummer</li>
+            <h2 class="cv-referenser-titel">Referenser</h2>
+            <ul style="list-style-type: none;" class="cv-referenser-lista">
+                <li><textarea style="resize: none;" id="cv-referenser-lista-1" placeholder="blabla - person - telefonnummer"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-referenser-lista-2" placeholder="blabla - person - telefonnummer"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-referenser-lista-3" placeholder="blabla - person - telefonnummer"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-referenser-lista-4" placeholder="blabla - person - telefonnummer"></textarea></li>
+                <li><textarea style="resize: none;" id="cv-referenser-lista-5" placeholder="blabla - person - telefonnummer"></textarea></li>
             </ul>
         </div>
         <br>
         <div class="cv-avslut">
-            <p class="cv-avslut-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, aut, maiores perspiciatis consectetur, cum quo atque ipsum quasi quaerat adipisci sequi est corrupti hic eaque quae repellat quis. Nemo!
-            Ea praesentium pariatur a odio autem voluptas tempore, voluptate libero aut modi mollitia quod explicabo non facilis fuga asperiores sequi quas, beatae saepe quis illum perferendis repellendus laboriosam. Molestiae, sit.
-            Nobis quam adipisci voluptates a magni, eos officia pariatur dignissimos, laudantium quasi modi quae ea quidem quisquam illum iste, ratione atque dolores rerum nulla perspiciatis. Libero est repudiandae placeat voluptatibus?
-            </p>
+            <textarea class="cv-avslut-text" placeholder="Skriv ett avslut här!"></textarea>
             <br>    
-            <h4 class="cv-avslut-titel">Förnamn och efternamn</h5>
+            <h4><textarea style="resize: none;" class="cv-avslut-titel" placeholder="Förnamn och efternamn"></textarea></h4>
         </div>
         <br> 
     </div>
     <div class="cv-pdf">
-        <button class="cv-pdf-btn">Skriv ut som .pdf</button>
-    </div>   
+        <button class="cv-pdf-btn" onclick="window.print()">Skriv ut som .pdf</button>
+    </div>
+
+    <script src="./index.js"></script>
 </body>
 </html>

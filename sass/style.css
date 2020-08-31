@@ -1,0 +1,380 @@
+.modes-btn {
+  font-size: medium;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 8rem;
+  height: 2rem;
+  background: #95ADBE;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.cv-base {
+  padding: 15%;
+  height: 100%;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  margin: 10%;
+}
+
+.cv-base .cv-header-namn-text {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-header-adress-text {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-header-nummer-nummer {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-header-nummer-mail {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-inledning-text {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 20rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-utbildning-lista {
+  font-size: large;
+}
+
+.cv-base .cv-utbildning-lista #cv-utbildning-lista-1 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-utbildning-lista #cv-utbildning-lista-2 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-utbildning-lista #cv-utbildning-lista-3 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-utbildning-lista #cv-utbildning-lista-4 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-utbildning-lista #cv-utbildning-lista-5 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-erfarenheter-lista {
+  font-size: large;
+}
+
+.cv-base .cv-erfarenheter-lista #cv-erfarenheter-lista-1 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-erfarenheter-lista #cv-erfarenheter-lista-2 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-erfarenheter-lista #cv-erfarenheter-lista-3 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-erfarenheter-lista #cv-erfarenheter-lista-4 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-erfarenheter-lista #cv-erfarenheter-lista-5 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-intressen-lista {
+  font-size: large;
+}
+
+.cv-base .cv-intressen-lista #cv-intressen-lista-1 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-intressen-lista #cv-intressen-lista-2 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-intressen-lista #cv-intressen-lista-3 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-intressen-lista #cv-intressen-lista-4 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-intressen-lista #cv-intressen-lista-5 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-referenser-lista {
+  font-size: large;
+}
+
+.cv-base .cv-referenser-lista #cv-referenser-lista-1 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-referenser-lista #cv-referenser-lista-2 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-referenser-lista #cv-referenser-lista-3 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-referenser-lista #cv-referenser-lista-4 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-referenser-lista #cv-referenser-lista-5 {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  width: 100%;
+  height: 3rem;
+  color: white;
+  padding-top: 4%;
+}
+
+.cv-base .cv-avslut-text {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 20rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-base .cv-avslut-titel {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  width: 100%;
+  height: 2rem;
+  color: white;
+  font-size: large;
+}
+
+.cv-pdf {
+  padding-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cv-pdf .cv-pdf-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12rem;
+  height: 4rem;
+  background: #95ADBE;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #DFF0EA;
+  color: #303242;
+  font-family: 'Lora', serif;
+}
+
+.dark-mode {
+  background: #3e3e3e;
+  color: #9197AE;
+}
+/*# sourceMappingURL=style.css.map */

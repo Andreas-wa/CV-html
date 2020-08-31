@@ -1,0 +1,155 @@
+@import "./variabels";
+
+.modes-btn{
+        @include fontSize();
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+        height: 2rem;
+        background: $btn;
+        border: none;
+        border-radius: 4px;
+        font-weight: 500;
+}
+
+.cv-base{
+    padding: 15%;
+    height: 100%;
+    // border: 1px solid $grey;
+    border-bottom: 1px solid grey; 
+    border-left: 1px solid grey; 
+    margin: 10%;
+
+    .cv-header-namn-text{
+        @include textAreaSmall;
+        @include fontSizeArea;
+    }
+
+    .cv-header-adress-text{
+        @include textAreaSmall;
+        @include fontSizeArea;
+    }
+
+    .cv-header-nummer-nummer{
+        @include textAreaSmall;
+        @include fontSizeArea;
+    }
+
+    .cv-header-nummer-mail{
+        @include textAreaSmall;
+        @include fontSizeArea;
+    }
+
+    .cv-inledning-text{
+        @include textAreaBig;
+        @include fontSizeArea;
+    }
+
+    .cv-utbildning-lista{
+        @include fontSizeArea;
+
+        #cv-utbildning-lista-1{
+            @include textAreaLista;
+        }
+        #cv-utbildning-lista-2{
+            @include textAreaLista;
+        }
+        #cv-utbildning-lista-3{
+            @include textAreaLista;
+        }
+        #cv-utbildning-lista-4{
+            @include textAreaLista;
+        }
+        #cv-utbildning-lista-5{
+            @include textAreaLista;
+        }
+    }
+
+    .cv-erfarenheter-lista{
+        @include fontSizeArea;
+
+        #cv-erfarenheter-lista-1{
+            @include textAreaLista;
+        }
+        #cv-erfarenheter-lista-2{
+            @include textAreaLista;
+        }
+        #cv-erfarenheter-lista-3{
+            @include textAreaLista;
+        }
+        #cv-erfarenheter-lista-4{
+            @include textAreaLista;
+        }
+        #cv-erfarenheter-lista-5{
+            @include textAreaLista;
+        }
+    }
+
+    .cv-intressen-lista{
+        @include fontSizeArea;
+
+        #cv-intressen-lista-1{
+            @include textAreaLista;
+        }
+        #cv-intressen-lista-2{
+            @include textAreaLista;
+        }
+        #cv-intressen-lista-3{
+            @include textAreaLista;
+        }
+        #cv-intressen-lista-4{
+            @include textAreaLista;
+        }
+        #cv-intressen-lista-5{
+            @include textAreaLista;
+        }
+    }
+
+    .cv-referenser-lista{
+        @include fontSizeArea;
+
+        #cv-referenser-lista-1{
+            @include textAreaLista;
+        }
+        #cv-referenser-lista-2{
+            @include textAreaLista;
+        }
+        #cv-referenser-lista-3{
+            @include textAreaLista;
+        }
+        #cv-referenser-lista-4{
+            @include textAreaLista;
+        }
+        #cv-referenser-lista-5{
+            @include textAreaLista;
+        }
+    }
+
+    .cv-avslut-text{
+        @include textAreaBig;
+        @include fontSizeArea;
+    }
+
+    .cv-avslut-titel{
+        @include textAreaSmall;
+        @include fontSizeArea;
+    }
+}
+
+.cv-pdf{
+    padding-bottom: 4rem;
+    @include centering();
+
+    .cv-pdf-btn{
+        @include centering();
+        @include fontSize();
+        align-items: center;
+        width: 12rem;
+        height: 4rem;
+        background: $btn;
+        border: none;
+        border-radius: 4px;
+        font-weight: 500;
+    }
+}
